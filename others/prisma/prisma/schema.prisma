@@ -1,14 +1,60 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
+/**
+ * Prismaクライアントの生成設定
+ * - provider: 生成されるクライアントの種類（JavaScript/TypeScript）
+ */
 generator client {
   provider = "prisma-client-js"
 }
 
+/**
+ * データベース接続設定
+ * - provider: 使用するデータベースの種類（PostgreSQL）
+ * - url: データベース接続文字列（環境変数から取得）
+ */
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+/**
+ * コメントデータのモデル定義
+ * - id: コメントの一意の識別子（自動インクリメント）
+ * - comment: コメントの内容
+ * - post: 関連する投稿
+ * - postId: 関連する投稿のID
+ */
+model Comment {
+  id Int @default(autoincrement()) @id
+  comment String
+  post Posts @relation(fields: [postId], references: [id])
+  postId Int
+}
+
+/**
+ * 投稿データのモデル定義
+ * - id: 投稿の一意の識別子（自動インクリメント）
+ * - title: 投稿のタイトル
+ * - body: 投稿の本文
+ */
+model Posts {
+  id Int @default(autoincrement()) @id
+  title String
+  body String
+  comments Comment[]
+}
+
+/**
+ * リレーション（関連）の定義
+ * - post: 関連する投稿を表すフィールド名
+ * - Posts: 関連するモデル（テーブル）の名前
+ * - @relation: リレーションを定義するための特別な指示
+ * - fields: [postId]: このモデルで使用する外部キーのフィールド
+ * - references: [id]: 参照先のモデル（Posts）の主キー
+ * 
+ * 例：コメントと投稿の関係
+ * - 1つの投稿には複数のコメントがつけられる(1対多の関係)
+ * - 各コメントは1つの投稿に属する
+ * - postIdは、そのコメントがどの投稿に属しているかを示す
+ */
+// post Posts @relation(fields: [postId], references: [id])
+
