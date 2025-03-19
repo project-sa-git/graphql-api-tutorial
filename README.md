@@ -37,3 +37,10 @@
 
 
 <img width="1677" alt="スクリーンショット 2025-03-17 14 26 56" src="https://github.com/user-attachments/assets/9738b1c2-7794-4fb9-9ad2-4711c1695e1b" />
+
+
+
+## 【追加】Prismaを作成
+
+<img width="1164" alt="スクリーンショット 2025-03-20 4 24 07" src="https://github.com/user-attachments/assets/9df7025a-7008-4e14-b771-e2aa860d0b5e" />
+
