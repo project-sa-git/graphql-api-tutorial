@@ -1,4 +1,4 @@
-# React、GraphQLの疎通確認用アプリ
+# React、GraphQL、Prisma学習用複合アプリ
 
 主な技術とそのバージョン
 
@@ -40,7 +40,7 @@
 
 
 
-## 【追加】Prismaを作成
+## 【2025/03/20追加】Prismaを作成
 
 <img width="1164" alt="スクリーンショット 2025-03-20 4 24 07" src="https://github.com/user-attachments/assets/9df7025a-7008-4e14-b771-e2aa860d0b5e" />
 
