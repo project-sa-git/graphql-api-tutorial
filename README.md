@@ -1,4 +1,4 @@
-# React、GraphQL、Prisma学習用複合アプリ
+# React、GraphQL、Prisma、Jest/Testing Library学習用複合アプリ
 
 主な技術とそのバージョン
 
@@ -43,4 +43,13 @@
 ## 【2025/03/20追加】Prismaを作成
 
 <img width="1164" alt="スクリーンショット 2025-03-20 4 24 07" src="https://github.com/user-attachments/assets/9df7025a-7008-4e14-b771-e2aa860d0b5e" />
+
+
+## 【2025/03/20追加】Jest/Testing Libraryを作成
+
+<img width="820" alt="スクリーンショット 2025-03-20 16 04 08" src="https://github.com/user-attachments/assets/6f2d9a47-14fc-4ad1-b373-4e46e29bd8d1" />
+
+![スクリーンショット 2025-03-20 16 44 15](https://github.com/user-attachments/assets/73578f86-29c0-478b-b8aa-b9487f1f109c)
+
+
 
