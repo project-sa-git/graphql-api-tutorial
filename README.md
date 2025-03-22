@@ -1,4 +1,4 @@
-# React、GraphQL、Prisma、Jest/Testing Library、Storybook/Tailwind CSS(手動作成)/Figma学習用複合アプリ
+# React、GraphQL、Prisma、Jest/Testing Library、Storybook/Tailwind CSS(手動作成)/Figma/App router学習用複合アプリ
 
 主な技術とそのバージョン
 
@@ -66,7 +66,8 @@
 https://www.figma.com/design/qokGDtOnklrgpzJpeDtyuH/Top%E3%83%9A%E3%83%BC%E3%82%B8?t=wggTMwTG3lh6xnda-1
 
 
-
-
+## 【2025/03/22追加】App router学習
+[参考]([url](https://www.youtube.com/watch?v=wUXGb_p4nDM))
+![スクリーンショット 2025-03-22 20 44 40](https://github.com/user-attachments/assets/d4c98f20-0af0-40d1-ab49-f51b744d54a4)
 
 
