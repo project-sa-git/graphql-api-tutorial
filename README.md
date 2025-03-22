@@ -1,4 +1,4 @@
-# React、GraphQL、Prisma、Jest/Testing Library、Storybook/Tailwind CSS(手動作成)学習用複合アプリ
+# React、GraphQL、Prisma、Jest/Testing Library、Storybook/Tailwind CSS(手動作成)/Figma学習用複合アプリ
 
 主な技術とそのバージョン
 
@@ -55,3 +55,18 @@
 ## 【2025/03/21追加】Storybook/Tailwind CSS（手動）を作成
 
 ![スクリーンショット 2025-03-21 14 00 05](https://github.com/user-attachments/assets/4154d202-8caf-4548-824d-0792adbeaa45)
+
+
+## 【2025/03/22追加】Figma動作確認
+
+![image](https://github.com/user-attachments/assets/38103470-3a20-413c-85d2-cce2bfffc07f)
+
+![image](https://github.com/user-attachments/assets/5c61c08d-d0ba-4763-9284-e8aa99b421eb)
+
+https://www.figma.com/design/qokGDtOnklrgpzJpeDtyuH/Top%E3%83%9A%E3%83%BC%E3%82%B8?t=wggTMwTG3lh6xnda-1
+
+
+
+
+
+
