@@ -67,7 +67,8 @@ https://www.figma.com/design/qokGDtOnklrgpzJpeDtyuH/Top%E3%83%9A%E3%83%BC%E3%82%
 
 
 ## 【2025/03/22追加】App router学習
-[参考]([url](https://www.youtube.com/watch?v=wUXGb_p4nDM))
+[参考](https://www.youtube.com/watch?v=wUXGb_p4nDM)
+
 ![スクリーンショット 2025-03-22 20 44 40](https://github.com/user-attachments/assets/d4c98f20-0af0-40d1-ab49-f51b744d54a4)
 
 
