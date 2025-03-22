@@ -75,7 +75,7 @@ https://www.figma.com/design/qokGDtOnklrgpzJpeDtyuH/Top%E3%83%9A%E3%83%BC%E3%82%
 ## Claudeイメージ
 Next.jsとは、ClientコンポーネントとServerコンポーネントとの違いも含めて
 
-[解説]([url](https://claude.ai/chat/5ddc6316-7d6b-45a6-afb5-966b18bf294a))
+[解説](https://claude.ai/chat/5ddc6316-7d6b-45a6-afb5-966b18bf294a)
 
 ![スクリーンショット 2025-03-22 21 45 31](https://github.com/user-attachments/assets/e443c111-41ff-414b-843b-f71357f498e7)
 
