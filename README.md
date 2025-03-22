@@ -77,7 +77,9 @@ Next.jsとは、ClientコンポーネントとServerコンポーネントとの�
 
 [解説]([url](https://claude.ai/chat/5ddc6316-7d6b-45a6-afb5-966b18bf294a))
 
-![スクリーンショット 2025-03-22 20 44 40](https://github.com/user-attachments/assets/d9fd2e38-dbd7-4d06-a694-73aabb155663)
+![スクリーンショット 2025-03-22 21 45 31](https://github.com/user-attachments/assets/e443c111-41ff-414b-843b-f71357f498e7)
+
+
 
 
 
