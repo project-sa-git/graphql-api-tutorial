@@ -59,9 +59,9 @@
 
 ## 【2025/03/22追加】Figma動作確認
 
-![image](https://github.com/user-attachments/assets/38103470-3a20-413c-85d2-cce2bfffc07f)
+<img width="1678" alt="スクリーンショット 2025-03-22 14 10 20" src="https://github.com/user-attachments/assets/1d30acf6-5c3a-478a-85ad-36f7ebd2a112" />
 
-![image](https://github.com/user-attachments/assets/5c61c08d-d0ba-4763-9284-e8aa99b421eb)
+<img width="1670" alt="スクリーンショット 2025-03-22 14 12 09" src="https://github.com/user-attachments/assets/0973eb8e-b73b-448a-b16d-dc6d7a2e470e" />
 
 https://www.figma.com/design/qokGDtOnklrgpzJpeDtyuH/Top%E3%83%9A%E3%83%BC%E3%82%B8?t=wggTMwTG3lh6xnda-1
 
