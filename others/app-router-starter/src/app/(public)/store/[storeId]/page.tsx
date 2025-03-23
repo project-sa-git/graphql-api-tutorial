@@ -1,8 +1,6 @@
 import { Metadata } from 'next'
-import { Suspense } from 'react'
-import Skeleton from '../../../../components/Skeleton'
-import CategoryContainer from './_components/CategoryContainer'
-import StoreContainer from './_components/StoreContainer'
+import ClientSection from './_components/ClientSection'
+import { getStore } from './fetcher'
 
 export const metadata: Metadata = {
   title: '店舗ページ',
@@ -10,18 +8,22 @@ export const metadata: Metadata = {
 
 type Props = {
   params: Promise<{ storeId: string }>
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>
 }
 
-export default async function Page({ params }: Props) {
+export default async function Page({ params, searchParams }: Props) {
   const { storeId } = await params
+  const { category } = await searchParams
+  const store = await getStore(storeId)
+
   return (
     <div>
-      <Suspense fallback={<Skeleton height={256} />}>
-        <StoreContainer storeId={storeId} />
-      </Suspense>
-      <Suspense fallback={<Skeleton height={128} />}>
-        <CategoryContainer />
-      </Suspense>
+      <h1>店舗ページです！</h1>
+      <h2>サーバーコンポーネントのセクション</h2>
+      <p>Store ID: {storeId}.</p>
+      <p>Store category: {category}.</p>
+      <p>Address: {store.address}</p>
+      <ClientSection />
     </div>
   )
 }
