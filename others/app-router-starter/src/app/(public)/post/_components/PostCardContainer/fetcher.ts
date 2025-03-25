@@ -2,6 +2,31 @@ import { Author } from 'core/domain/entity/author'
 import { Post } from 'core/domain/entity/post'
 
 /**
+ * データフェッチング関数群
+ *
+ * 【パラレルフェッチングにおける各関数の役割】
+ *
+ * 1. listPostByCategory:
+ *    - 投稿データを取得
+ *    - キャッシュ設定: no-store（常に最新データを取得）
+ *    - 処理時間の目安: 約3秒
+ *
+ * 2. listAuthor:
+ *    - 著者データを取得
+ *    - キャッシュ設定: force-cache（キャッシュを優先使用）
+ *    - 処理時間の目安: 約3秒
+ *
+ * 【Promise.allのメリット】
+ * - 両方の関数が同時に実行されるため、合計待ち時間が短縮
+ * - ネットワークリソースを効率的に使用
+ * - コードがシンプルで可読性が高い
+ *
+ * 【注意点】
+ * - エラーハンドリングが重要（どちらか一方が失敗すると全体が失敗）
+ * - サーバーリソースの使用量に注意
+ */
+
+/**
  * カテゴリー別の投稿一覧を取得するフェッチャー関数
  *
  * ダイナミックルーティングとクエリパラメータについて：
@@ -27,7 +52,7 @@ export async function listPostByCategory(categoryId: string): Promise<Post[]> {
 
   // APIエンドポイントにリクエストを送信
   const res = await fetch(`http://localhost:3000/api/post?${params.toString()}`, {
-    cache: 'no-store', // キャッシュを使用しない
+    cache: 'no-store', // 常に最新データを取得
   })
 
   // レスポンスをJSONとしてパース
@@ -43,7 +68,7 @@ export async function listPostByCategory(categoryId: string): Promise<Post[]> {
 
 export async function listAuthor(): Promise<Author[]> {
   const res = await fetch(`http://localhost:3000/api/author`, {
-    cache: 'force-cache',
+    cache: 'force-cache', // キャッシュを優先使用
   })
   const data = await res.json()
   if (res.status !== 200) {
