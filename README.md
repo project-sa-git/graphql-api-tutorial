@@ -276,6 +276,12 @@ Next.jsを動かすVercel上のNode.jsサーバーは、**APIサーバーとWeb�
 <img width="416" alt="スクリーンショット 2025-03-30 16 41 35" src="https://github.com/user-attachments/assets/0f142e4b-fe3e-466c-a4c0-c370d6275ff1" />
 
 
+## 【2025/03/31追加】useRef、React.Memo、useCallbackなどのメモ化（キャッシュ）再レンダリング確認
+
+<img width="1676" alt="スクリーンショット 2025-03-31 1 34 43" src="https://github.com/user-attachments/assets/bf101728-a853-4065-aa35-25324ac225e1" />
+
+
+
 
 
 
