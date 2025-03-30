@@ -271,6 +271,10 @@ Next.jsを動かすVercel上のNode.jsサーバーは、**APIサーバーとWeb�
 ![スクリーンショット 2025-03-24 1 02 18](https://github.com/user-attachments/assets/d46c3531-067c-4ae8-bad6-b7c46ffe2561)
 
 
+## 【2025/03/30追加】CLI、Reactで3目並べ追加
+
+<img width="416" alt="スクリーンショット 2025-03-30 16 41 35" src="https://github.com/user-attachments/assets/0f142e4b-fe3e-466c-a4c0-c370d6275ff1" />
+
 
 
 
